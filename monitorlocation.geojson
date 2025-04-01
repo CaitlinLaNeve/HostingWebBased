@@ -8,7 +8,7 @@
        "coordinates":  [ -97,44.9 ]
     },
     "properties": {
-    "Device ID":10052
+    "DeviceID":10052
     }
   },
   {
@@ -18,7 +18,7 @@
        "coordinates":  [ -88.2,41.8 ]
     },
     "properties": {
-    "Device ID":10064
+    "DeviceID":10064
     }
   },
   {
@@ -28,7 +28,7 @@
        "coordinates":  [ -87.8,41.8 ]
     },
     "properties": {
-    "Device ID":10065
+    "DeviceID":10065
     }
   },
   {
@@ -38,7 +38,7 @@
        "coordinates":  [ -87.9,41.6 ]
     },
     "properties": {
-    "Device ID":10066
+    "DeviceID":10066
     }
   },
   {
@@ -48,7 +48,7 @@
        "coordinates":  [ -87.9,42.1 ]
     },
     "properties": {
-    "Device ID":10067
+    "DeviceID":10067
     }
   },
   {
@@ -58,7 +58,7 @@
        "coordinates":  [ -88.2,42 ]
     },
     "properties": {
-    "Device ID":10068
+    "DeviceID":10068
     }
   },
   {
@@ -68,7 +68,7 @@
        "coordinates":  [ -87.7,41.9 ]
     },
     "properties": {
-    "Device ID":10069
+    "DeviceID":10069
     }
   },
   {
@@ -78,7 +78,7 @@
        "coordinates":  [ -88.9,42.2 ]
     },
     "properties": {
-    "Device ID":10071
+    "DeviceID":10071
     }
   },
   {
@@ -88,7 +88,7 @@
        "coordinates":  [ -88.9,42.2 ]
     },
     "properties": {
-    "Device ID":10072
+    "DeviceID":10072
     }
   },
   {
@@ -98,7 +98,7 @@
        "coordinates":  [ -87.7,41.6 ]
     },
     "properties": {
-    "Device ID":10073
+    "DeviceID":10073
     }
   },
   {
@@ -108,7 +108,7 @@
        "coordinates":  [ -87.9,41.2 ]
     },
     "properties": {
-    "Device ID":10074
+    "DeviceID":10074
     }
   },
   {
@@ -118,7 +118,7 @@
        "coordinates":  [ -87.5,41.7 ]
     },
     "properties": {
-    "Device ID":10075
+    "DeviceID":10075
     }
   },
   {
@@ -128,7 +128,7 @@
        "coordinates":  [ -88,41.8 ]
     },
     "properties": {
-    "Device ID":10076
+    "DeviceID":10076
     }
   },
   {
@@ -138,7 +138,7 @@
        "coordinates":  [ -72.5,41.9 ]
     },
     "properties": {
-    "Device ID":10094
+    "DeviceID":10094
     }
   },
   {
@@ -148,7 +148,7 @@
        "coordinates":  [ -72.2,41.7 ]
     },
     "properties": {
-    "Device ID":10095
+    "DeviceID":10095
     }
   },
   {
@@ -158,7 +158,7 @@
        "coordinates":  [ -72.6,41.8 ]
     },
     "properties": {
-    "Device ID":10096
+    "DeviceID":10096
     }
   },
   {
@@ -168,7 +168,7 @@
        "coordinates":  [ -72.1,41.4 ]
     },
     "properties": {
-    "Device ID":10097
+    "DeviceID":10097
     }
   },
   {
@@ -178,7 +178,7 @@
        "coordinates":  [ -72.1,41.4 ]
     },
     "properties": {
-    "Device ID":10098
+    "DeviceID":10098
     }
   },
   {
@@ -188,7 +188,7 @@
        "coordinates":  [ -73.4,41.4 ]
     },
     "properties": {
-    "Device ID":10099
+    "DeviceID":10099
     }
   },
   {
@@ -198,7 +198,7 @@
        "coordinates":  [ -72.9,41.6 ]
     },
     "properties": {
-    "Device ID":10100
+    "DeviceID":10100
     }
   },
   {
@@ -208,7 +208,7 @@
        "coordinates":  [ -121.3,38.6 ]
     },
     "properties": {
-    "Device ID":10103
+    "DeviceID":10103
     }
   },
   {
@@ -218,7 +218,7 @@
        "coordinates":  [ -75.3,40.2 ]
     },
     "properties": {
-    "Device ID":10222
+    "DeviceID":10222
     }
   },
   {
@@ -228,7 +228,7 @@
        "coordinates":  [ -115.7,32.9 ]
     },
     "properties": {
-    "Device ID":10223
+    "DeviceID":10223
     }
   },
   {
@@ -238,7 +238,7 @@
        "coordinates":  [ -75.3,40.2 ]
     },
     "properties": {
-    "Device ID":10224
+    "DeviceID":10224
     }
   },
   {
@@ -248,7 +248,7 @@
        "coordinates":  [ -92.7,43.6 ]
     },
     "properties": {
-    "Device ID":10229
+    "DeviceID":10229
     }
   },
   {
@@ -258,7 +258,7 @@
        "coordinates":  [ -92.8,45 ]
     },
     "properties": {
-    "Device ID":10232
+    "DeviceID":10232
     }
   },
   {
@@ -268,7 +268,7 @@
        "coordinates":  [ -122.3,47.6 ]
     },
     "properties": {
-    "Device ID":10233
+    "DeviceID":10233
     }
   },
   {
@@ -278,7 +278,7 @@
        "coordinates":  [ -84.9,33.7 ]
     },
     "properties": {
-    "Device ID":10237
+    "DeviceID":10237
     }
   },
   {
@@ -288,7 +288,7 @@
        "coordinates":  [ -83.5,31.5 ]
     },
     "properties": {
-    "Device ID":10238
+    "DeviceID":10238
     }
   },
   {
@@ -298,7 +298,7 @@
        "coordinates":  [ -81.7,31.3 ]
     },
     "properties": {
-    "Device ID":10239
+    "DeviceID":10239
     }
   },
   {
@@ -308,7 +308,7 @@
        "coordinates":  [ -116.2,47.5 ]
     },
     "properties": {
-    "Device ID":10253
+    "DeviceID":10253
     }
   },
   {
@@ -318,7 +318,7 @@
        "coordinates":  [ -82.5,42.8 ]
     },
     "properties": {
-    "Device ID":10254
+    "DeviceID":10254
     }
   },
   {
@@ -328,7 +328,7 @@
        "coordinates":  [ -94.7,45.7 ]
     },
     "properties": {
-    "Device ID":10255
+    "DeviceID":10255
     }
   },
   {
@@ -338,7 +338,7 @@
        "coordinates":  [ -116.3,43.6 ]
     },
     "properties": {
-    "Device ID":10265
+    "DeviceID":10265
     }
   },
   {
@@ -348,7 +348,7 @@
        "coordinates":  [ -114.4,42.8 ]
     },
     "properties": {
-    "Device ID":10266
+    "DeviceID":10266
     }
   },
   {
@@ -358,7 +358,7 @@
        "coordinates":  [ -92.3,46.8 ]
     },
     "properties": {
-    "Device ID":10297
+    "DeviceID":10297
     }
   },
   {
@@ -368,7 +368,7 @@
        "coordinates":  [ -88,43.4 ]
     },
     "properties": {
-    "Device ID":10298
+    "DeviceID":10298
     }
   },
   {
@@ -378,7 +378,7 @@
        "coordinates":  [ -87.4,46.6 ]
     },
     "properties": {
-    "Device ID":10299
+    "DeviceID":10299
     }
   },
   {
@@ -388,7 +388,7 @@
        "coordinates":  [ -87.4,46.6 ]
     },
     "properties": {
-    "Device ID":10300
+    "DeviceID":10300
     }
   },
   {
@@ -398,7 +398,7 @@
        "coordinates":  [ -88.6,44 ]
     },
     "properties": {
-    "Device ID":10301
+    "DeviceID":10301
     }
   },
   {
@@ -408,7 +408,7 @@
        "coordinates":  [ -88.1,44.2 ]
     },
     "properties": {
-    "Device ID":10302
+    "DeviceID":10302
     }
   },
   {
@@ -418,7 +418,7 @@
        "coordinates":  [ -89.7,44.8 ]
     },
     "properties": {
-    "Device ID":10303
+    "DeviceID":10303
     }
   },
   {
@@ -428,7 +428,7 @@
        "coordinates":  [ -89.7,44.8 ]
     },
     "properties": {
-    "Device ID":10304
+    "DeviceID":10304
     }
   },
   {
@@ -438,7 +438,7 @@
        "coordinates":  [ -88.2,44.8 ]
     },
     "properties": {
-    "Device ID":10306
+    "DeviceID":10306
     }
   },
   {
@@ -448,7 +448,7 @@
        "coordinates":  [ -88.4,44.4 ]
     },
     "properties": {
-    "Device ID":10307
+    "DeviceID":10307
     }
   },
   {
@@ -458,7 +458,7 @@
        "coordinates":  [ -89.1,42.5 ]
     },
     "properties": {
-    "Device ID":10308
+    "DeviceID":10308
     }
   },
   {
@@ -468,7 +468,7 @@
        "coordinates":  [ -88,45.8 ]
     },
     "properties": {
-    "Device ID":10309
+    "DeviceID":10309
     }
   },
   {
@@ -478,7 +478,7 @@
        "coordinates":  [ -89,43 ]
     },
     "properties": {
-    "Device ID":10310
+    "DeviceID":10310
     }
   },
   {
@@ -488,7 +488,7 @@
        "coordinates":  [ -89,43 ]
     },
     "properties": {
-    "Device ID":10311
+    "DeviceID":10311
     }
   },
   {
@@ -498,7 +498,7 @@
        "coordinates":  [ -89,43 ]
     },
     "properties": {
-    "Device ID":10312
+    "DeviceID":10312
     }
   },
   {
@@ -508,7 +508,7 @@
        "coordinates":  [ -89.6,44.5 ]
     },
     "properties": {
-    "Device ID":10313
+    "DeviceID":10313
     }
   },
   {
@@ -518,7 +518,7 @@
        "coordinates":  [ -89.6,44.5 ]
     },
     "properties": {
-    "Device ID":10314
+    "DeviceID":10314
     }
   },
   {
@@ -528,7 +528,7 @@
        "coordinates":  [ -89.6,44.5 ]
     },
     "properties": {
-    "Device ID":10315
+    "DeviceID":10315
     }
   },
   {
@@ -538,7 +538,7 @@
        "coordinates":  [ -88.5,43.7 ]
     },
     "properties": {
-    "Device ID":10316
+    "DeviceID":10316
     }
   },
   {
@@ -548,7 +548,7 @@
        "coordinates":  [ -88.5,43.7 ]
     },
     "properties": {
-    "Device ID":10317
+    "DeviceID":10317
     }
   },
   {
@@ -558,7 +558,7 @@
        "coordinates":  [ -88.7,44.4 ]
     },
     "properties": {
-    "Device ID":10318
+    "DeviceID":10318
     }
   },
   {
@@ -568,7 +568,7 @@
        "coordinates":  [ -88,43.1 ]
     },
     "properties": {
-    "Device ID":10321
+    "DeviceID":10321
     }
   },
   {
@@ -578,7 +578,7 @@
        "coordinates":  [ -89.4,43.3 ]
     },
     "properties": {
-    "Device ID":10322
+    "DeviceID":10322
     }
   },
   {
@@ -588,7 +588,7 @@
        "coordinates":  [ -91.5,44.8 ]
     },
     "properties": {
-    "Device ID":10336
+    "DeviceID":10336
     }
   },
   {
@@ -598,7 +598,7 @@
        "coordinates":  [ -91.5,44.8 ]
     },
     "properties": {
-    "Device ID":10338
+    "DeviceID":10338
     }
   },
   {
@@ -608,7 +608,7 @@
        "coordinates":  [ -95.7,43.7 ]
     },
     "properties": {
-    "Device ID":10339
+    "DeviceID":10339
     }
   },
   {
@@ -618,7 +618,7 @@
        "coordinates":  [ -95.7,43.7 ]
     },
     "properties": {
-    "Device ID":10340
+    "DeviceID":10340
     }
   },
   {
@@ -628,7 +628,7 @@
        "coordinates":  [ -93.5,45 ]
     },
     "properties": {
-    "Device ID":10341
+    "DeviceID":10341
     }
   },
   {
@@ -638,7 +638,7 @@
        "coordinates":  [ -93.5,45 ]
     },
     "properties": {
-    "Device ID":10342
+    "DeviceID":10342
     }
   },
   {
@@ -648,7 +648,7 @@
        "coordinates":  [ -97.1,47.9 ]
     },
     "properties": {
-    "Device ID":10343
+    "DeviceID":10343
     }
   },
   {
@@ -658,7 +658,7 @@
        "coordinates":  [ -97.1,47.9 ]
     },
     "properties": {
-    "Device ID":10344
+    "DeviceID":10344
     }
   },
   {
@@ -668,7 +668,7 @@
        "coordinates":  [ -97.1,47.9 ]
     },
     "properties": {
-    "Device ID":10345
+    "DeviceID":10345
     }
   },
   {
@@ -678,7 +678,7 @@
        "coordinates":  [ -97.1,47.9 ]
     },
     "properties": {
-    "Device ID":10347
+    "DeviceID":10347
     }
   },
   {
@@ -688,7 +688,7 @@
        "coordinates":  [ -94.3,45.5 ]
     },
     "properties": {
-    "Device ID":10348
+    "DeviceID":10348
     }
   },
   {
@@ -698,7 +698,7 @@
        "coordinates":  [ -93.6,44.8 ]
     },
     "properties": {
-    "Device ID":10349
+    "DeviceID":10349
     }
   },
   {
@@ -708,7 +708,7 @@
        "coordinates":  [ -93.6,44.8 ]
     },
     "properties": {
-    "Device ID":10350
+    "DeviceID":10350
     }
   },
   {
@@ -718,7 +718,7 @@
        "coordinates":  [ -93.6,44.8 ]
     },
     "properties": {
-    "Device ID":10351
+    "DeviceID":10351
     }
   },
   {
@@ -728,7 +728,7 @@
        "coordinates":  [ -93.6,44.8 ]
     },
     "properties": {
-    "Device ID":10352
+    "DeviceID":10352
     }
   },
   {
@@ -738,7 +738,7 @@
        "coordinates":  [ -93.9,45.4 ]
     },
     "properties": {
-    "Device ID":10353
+    "DeviceID":10353
     }
   },
   {
@@ -748,7 +748,7 @@
        "coordinates":  [ -91.5,45.9 ]
     },
     "properties": {
-    "Device ID":10354
+    "DeviceID":10354
     }
   },
   {
@@ -758,7 +758,7 @@
        "coordinates":  [ -94,44.2 ]
     },
     "properties": {
-    "Device ID":10355
+    "DeviceID":10355
     }
   },
   {
@@ -768,7 +768,7 @@
        "coordinates":  [ -94,44.2 ]
     },
     "properties": {
-    "Device ID":10356
+    "DeviceID":10356
     }
   },
   {
@@ -778,7 +778,7 @@
        "coordinates":  [ -117.5,47.7 ]
     },
     "properties": {
-    "Device ID":10357
+    "DeviceID":10357
     }
   },
   {
@@ -788,7 +788,7 @@
        "coordinates":  [ -121.2,38.7 ]
     },
     "properties": {
-    "Device ID":10358
+    "DeviceID":10358
     }
   },
   {
@@ -798,7 +798,7 @@
        "coordinates":  [ -87.4,38.3 ]
     },
     "properties": {
-    "Device ID":10389
+    "DeviceID":10389
     }
   },
   {
@@ -808,7 +808,7 @@
        "coordinates":  [ -78.3,39.1 ]
     },
     "properties": {
-    "Device ID":10397
+    "DeviceID":10397
     }
   },
   {
@@ -818,7 +818,7 @@
        "coordinates":  [ -74.2,41.1 ]
     },
     "properties": {
-    "Device ID":10398
+    "DeviceID":10398
     }
   },
   {
@@ -828,7 +828,7 @@
        "coordinates":  [ -118.5,34 ]
     },
     "properties": {
-    "Device ID":10586
+    "DeviceID":10586
     }
   },
   {
@@ -838,7 +838,7 @@
        "coordinates":  [ -117,46.4 ]
     },
     "properties": {
-    "Device ID":10587
+    "DeviceID":10587
     }
   },
   {
@@ -848,7 +848,7 @@
        "coordinates":  [ -106.1,35.8 ]
     },
     "properties": {
-    "Device ID":10591
+    "DeviceID":10591
     }
   },
   {
@@ -858,7 +858,7 @@
        "coordinates":  [ -84.5,43.2 ]
     },
     "properties": {
-    "Device ID":10592
+    "DeviceID":10592
     }
   },
   {
@@ -868,7 +868,7 @@
        "coordinates":  [ -83,42.6 ]
     },
     "properties": {
-    "Device ID":10603
+    "DeviceID":10603
     }
   },
   {
@@ -878,7 +878,7 @@
        "coordinates":  [ -122.6,45.3 ]
     },
     "properties": {
-    "Device ID":10605
+    "DeviceID":10605
     }
   },
   {
@@ -888,7 +888,7 @@
        "coordinates":  [ -72.9,41.3 ]
     },
     "properties": {
-    "Device ID":10606
+    "DeviceID":10606
     }
   },
   {
@@ -898,7 +898,7 @@
        "coordinates":  [ -72.9,41.3 ]
     },
     "properties": {
-    "Device ID":10607
+    "DeviceID":10607
     }
   },
   {
@@ -908,7 +908,7 @@
        "coordinates":  [ -73.2,41.2 ]
     },
     "properties": {
-    "Device ID":10608
+    "DeviceID":10608
     }
   },
   {
@@ -918,7 +918,7 @@
        "coordinates":  [ -73.2,41.2 ]
     },
     "properties": {
-    "Device ID":10609
+    "DeviceID":10609
     }
   },
   {
@@ -928,7 +928,7 @@
        "coordinates":  [ -92.6,39.6 ]
     },
     "properties": {
-    "Device ID":10611
+    "DeviceID":10611
     }
   },
   {
@@ -938,7 +938,7 @@
        "coordinates":  [ -87.2,30.5 ]
     },
     "properties": {
-    "Device ID":10612
+    "DeviceID":10612
     }
   },
   {
@@ -948,7 +948,7 @@
        "coordinates":  [ -81.6,29.6 ]
     },
     "properties": {
-    "Device ID":10613
+    "DeviceID":10613
     }
   },
   {
@@ -958,7 +958,7 @@
        "coordinates":  [ -81.6,29.6 ]
     },
     "properties": {
-    "Device ID":10614
+    "DeviceID":10614
     }
   },
   {
@@ -968,7 +968,7 @@
        "coordinates":  [ -81.6,29.6 ]
     },
     "properties": {
-    "Device ID":10615
+    "DeviceID":10615
     }
   },
   {
@@ -978,7 +978,7 @@
        "coordinates":  [ -81.6,29.6 ]
     },
     "properties": {
-    "Device ID":10616
+    "DeviceID":10616
     }
   },
   {
@@ -988,7 +988,7 @@
        "coordinates":  [ -81.3,28.8 ]
     },
     "properties": {
-    "Device ID":10617
+    "DeviceID":10617
     }
   },
   {
@@ -998,7 +998,7 @@
        "coordinates":  [ -86.2,38.3 ]
     },
     "properties": {
-    "Device ID":10618
+    "DeviceID":10618
     }
   },
   {
@@ -1008,7 +1008,7 @@
        "coordinates":  [ -86.2,38.3 ]
     },
     "properties": {
-    "Device ID":10619
+    "DeviceID":10619
     }
   },
   {
@@ -1018,7 +1018,7 @@
        "coordinates":  [ -87.5,39.1 ]
     },
     "properties": {
-    "Device ID":10620
+    "DeviceID":10620
     }
   },
   {
@@ -1028,7 +1028,7 @@
        "coordinates":  [ -87.5,39.1 ]
     },
     "properties": {
-    "Device ID":10621
+    "DeviceID":10621
     }
   },
   {
@@ -1038,7 +1038,7 @@
        "coordinates":  [ -86.5,39.3 ]
     },
     "properties": {
-    "Device ID":10622
+    "DeviceID":10622
     }
   },
   {
@@ -1048,7 +1048,7 @@
        "coordinates":  [ -86.5,39.3 ]
     },
     "properties": {
-    "Device ID":10623
+    "DeviceID":10623
     }
   },
   {
@@ -1058,7 +1058,7 @@
        "coordinates":  [ -86.3,42.2 ]
     },
     "properties": {
-    "Device ID":10642
+    "DeviceID":10642
     }
   },
   {
@@ -1068,7 +1068,7 @@
        "coordinates":  [ -85.9,40.5 ]
     },
     "properties": {
-    "Device ID":10643
+    "DeviceID":10643
     }
   },
   {
@@ -1078,7 +1078,7 @@
        "coordinates":  [ -81.7,37.7 ]
     },
     "properties": {
-    "Device ID":10644
+    "DeviceID":10644
     }
   },
   {
@@ -1088,7 +1088,7 @@
        "coordinates":  [ -115.3,36.3 ]
     },
     "properties": {
-    "Device ID":10664
+    "DeviceID":10664
     }
   },
   {
@@ -1098,7 +1098,7 @@
        "coordinates":  [ -86,31 ]
     },
     "properties": {
-    "Device ID":10665
+    "DeviceID":10665
     }
   },
   {
@@ -1108,7 +1108,7 @@
        "coordinates":  [ -83.3,41.8 ]
     },
     "properties": {
-    "Device ID":10701
+    "DeviceID":10701
     }
   },
   {
@@ -1118,7 +1118,7 @@
        "coordinates":  [ -82.7,38.3 ]
     },
     "properties": {
-    "Device ID":10707
+    "DeviceID":10707
     }
   },
   {
@@ -1128,7 +1128,7 @@
        "coordinates":  [ -82.7,38.3 ]
     },
     "properties": {
-    "Device ID":10708
+    "DeviceID":10708
     }
   },
   {
@@ -1138,7 +1138,7 @@
        "coordinates":  [ -96.5,44.4 ]
     },
     "properties": {
-    "Device ID":10051
+    "DeviceID":10051
     }
   },
   {
@@ -1148,7 +1148,7 @@
        "coordinates":  [ -112.5,33.4 ]
     },
     "properties": {
-    "Device ID":10063
+    "DeviceID":10063
     }
   },
   {
@@ -1158,7 +1158,7 @@
        "coordinates":  [ -87.9,42.3 ]
     },
     "properties": {
-    "Device ID":10077
+    "DeviceID":10077
     }
   },
   {
@@ -1168,7 +1168,7 @@
        "coordinates":  [ -87.8,42.1 ]
     },
     "properties": {
-    "Device ID":10078
+    "DeviceID":10078
     }
   },
   {
@@ -1178,7 +1178,7 @@
        "coordinates":  [ -87.6,41.5 ]
     },
     "properties": {
-    "Device ID":10079
+    "DeviceID":10079
     }
   },
   {
@@ -1188,7 +1188,7 @@
        "coordinates":  [ -87.9,42 ]
     },
     "properties": {
-    "Device ID":10080
+    "DeviceID":10080
     }
   },
   {
@@ -1198,7 +1198,7 @@
        "coordinates":  [ -87.7,41.6 ]
     },
     "properties": {
-    "Device ID":10082
+    "DeviceID":10082
     }
   },
   {
@@ -1208,7 +1208,7 @@
        "coordinates":  [ -88.6,40.8 ]
     },
     "properties": {
-    "Device ID":10083
+    "DeviceID":10083
     }
   },
   {
@@ -1218,7 +1218,7 @@
        "coordinates":  [ -87.9,41.2 ]
     },
     "properties": {
-    "Device ID":10084
+    "DeviceID":10084
     }
   },
   {
@@ -1228,7 +1228,7 @@
        "coordinates":  [ -87.9,41.2 ]
     },
     "properties": {
-    "Device ID":10085
+    "DeviceID":10085
     }
   },
   {
@@ -1238,7 +1238,7 @@
        "coordinates":  [ -71.3,42.9 ]
     },
     "properties": {
-    "Device ID":10102
+    "DeviceID":10102
     }
   },
   {
@@ -1248,7 +1248,7 @@
        "coordinates":  [ -118.1,34.5 ]
     },
     "properties": {
-    "Device ID":10107
+    "DeviceID":10107
     }
   },
   {
@@ -1258,7 +1258,7 @@
        "coordinates":  [ -123,43.4 ]
     },
     "properties": {
-    "Device ID":10111
+    "DeviceID":10111
     }
   },
   {
@@ -1268,7 +1268,7 @@
        "coordinates":  [ -117.4,47.7 ]
     },
     "properties": {
-    "Device ID":10112
+    "DeviceID":10112
     }
   },
   {
@@ -1278,7 +1278,7 @@
        "coordinates":  [ -121.1,45.6 ]
     },
     "properties": {
-    "Device ID":10113
+    "DeviceID":10113
     }
   },
   {
@@ -1288,7 +1288,7 @@
        "coordinates":  [ -116.9,46.5 ]
     },
     "properties": {
-    "Device ID":10114
+    "DeviceID":10114
     }
   },
   {
@@ -1298,7 +1298,7 @@
        "coordinates":  [ -114.6,47.6 ]
     },
     "properties": {
-    "Device ID":10115
+    "DeviceID":10115
     }
   },
   {
@@ -1308,7 +1308,7 @@
        "coordinates":  [ -121.9,47.9 ]
     },
     "properties": {
-    "Device ID":10116
+    "DeviceID":10116
     }
   },
   {
@@ -1318,7 +1318,7 @@
        "coordinates":  [ -122.8,45.3 ]
     },
     "properties": {
-    "Device ID":10117
+    "DeviceID":10117
     }
   },
   {
@@ -1328,7 +1328,7 @@
        "coordinates":  [ -122.6,45.7 ]
     },
     "properties": {
-    "Device ID":10118
+    "DeviceID":10118
     }
   },
   {
@@ -1338,7 +1338,7 @@
        "coordinates":  [ -120.3,47.5 ]
     },
     "properties": {
-    "Device ID":10119
+    "DeviceID":10119
     }
   },
   {
@@ -1348,7 +1348,7 @@
        "coordinates":  [ -122.2,47.8 ]
     },
     "properties": {
-    "Device ID":10120
+    "DeviceID":10120
     }
   },
   {
@@ -1358,7 +1358,7 @@
        "coordinates":  [ -119.9,46.9 ]
     },
     "properties": {
-    "Device ID":10121
+    "DeviceID":10121
     }
   },
   {
@@ -1368,7 +1368,7 @@
        "coordinates":  [ -92.7,43.6 ]
     },
     "properties": {
-    "Device ID":10230
+    "DeviceID":10230
     }
   },
   {
@@ -1378,7 +1378,7 @@
        "coordinates":  [ -92.8,45 ]
     },
     "properties": {
-    "Device ID":10231
+    "DeviceID":10231
     }
   },
   {
@@ -1388,7 +1388,7 @@
        "coordinates":  [ -88.1,30.8 ]
     },
     "properties": {
-    "Device ID":10234
+    "DeviceID":10234
     }
   },
   {
@@ -1398,7 +1398,7 @@
        "coordinates":  [ -87.4,33.3 ]
     },
     "properties": {
-    "Device ID":10235
+    "DeviceID":10235
     }
   },
   {
@@ -1408,7 +1408,7 @@
        "coordinates":  [ -86.6,33.7 ]
     },
     "properties": {
-    "Device ID":10236
+    "DeviceID":10236
     }
   },
   {
@@ -1418,7 +1418,7 @@
        "coordinates":  [ -73.6,40.8 ]
     },
     "properties": {
-    "Device ID":10240
+    "DeviceID":10240
     }
   },
   {
@@ -1428,7 +1428,7 @@
        "coordinates":  [ -101.2,47.4 ]
     },
     "properties": {
-    "Device ID":10257
+    "DeviceID":10257
     }
   },
   {
@@ -1438,7 +1438,7 @@
        "coordinates":  [ -101.2,47.4 ]
     },
     "properties": {
-    "Device ID":10258
+    "DeviceID":10258
     }
   },
   {
@@ -1448,7 +1448,7 @@
        "coordinates":  [ -101.2,47.4 ]
     },
     "properties": {
-    "Device ID":10259
+    "DeviceID":10259
     }
   },
   {
@@ -1458,7 +1458,7 @@
        "coordinates":  [ -101.2,47.4 ]
     },
     "properties": {
-    "Device ID":10260
+    "DeviceID":10260
     }
   },
   {
@@ -1468,7 +1468,7 @@
        "coordinates":  [ -93.8,45.1 ]
     },
     "properties": {
-    "Device ID":10261
+    "DeviceID":10261
     }
   },
   {
@@ -1478,7 +1478,7 @@
        "coordinates":  [ -93.8,45.1 ]
     },
     "properties": {
-    "Device ID":10262
+    "DeviceID":10262
     }
   },
   {
@@ -1488,7 +1488,7 @@
        "coordinates":  [ -93.8,45.1 ]
     },
     "properties": {
-    "Device ID":10263
+    "DeviceID":10263
     }
   },
   {
@@ -1498,7 +1498,7 @@
        "coordinates":  [ -93.8,45.1 ]
     },
     "properties": {
-    "Device ID":10264
+    "DeviceID":10264
     }
   },
   {
@@ -1508,7 +1508,7 @@
        "coordinates":  [ -72.7,43.4 ]
     },
     "properties": {
-    "Device ID":10291
+    "DeviceID":10291
     }
   },
   {
@@ -1518,7 +1518,7 @@
        "coordinates":  [ -72.5,44.1 ]
     },
     "properties": {
-    "Device ID":10292
+    "DeviceID":10292
     }
   },
   {
@@ -1528,7 +1528,7 @@
        "coordinates":  [ -72.7,43 ]
     },
     "properties": {
-    "Device ID":10293
+    "DeviceID":10293
     }
   },
   {
@@ -1538,7 +1538,7 @@
        "coordinates":  [ -73.2,44.1 ]
     },
     "properties": {
-    "Device ID":10294
+    "DeviceID":10294
     }
   },
   {
@@ -1548,7 +1548,7 @@
        "coordinates":  [ -72.5,42.8 ]
     },
     "properties": {
-    "Device ID":10295
+    "DeviceID":10295
     }
   },
   {
@@ -1558,7 +1558,7 @@
        "coordinates":  [ -73.1,43.6 ]
     },
     "properties": {
-    "Device ID":10296
+    "DeviceID":10296
     }
   },
   {
@@ -1568,7 +1568,7 @@
        "coordinates":  [ -96.5,44.4 ]
     },
     "properties": {
-    "Device ID":10333
+    "DeviceID":10333
     }
   },
   {
@@ -1578,7 +1578,7 @@
        "coordinates":  [ -96.5,44.4 ]
     },
     "properties": {
-    "Device ID":10334
+    "DeviceID":10334
     }
   },
   {
@@ -1588,7 +1588,7 @@
        "coordinates":  [ -93.5,45.1 ]
     },
     "properties": {
-    "Device ID":10335
+    "DeviceID":10335
     }
   },
   {
@@ -1598,7 +1598,7 @@
        "coordinates":  [ -97.1,47.9 ]
     },
     "properties": {
-    "Device ID":10346
+    "DeviceID":10346
     }
   },
   {
@@ -1608,7 +1608,7 @@
        "coordinates":  [ -111.9,33.7 ]
     },
     "properties": {
-    "Device ID":10359
+    "DeviceID":10359
     }
   },
   {
@@ -1618,7 +1618,7 @@
        "coordinates":  [ -75.3,40.2 ]
     },
     "properties": {
-    "Device ID":10360
+    "DeviceID":10360
     }
   },
   {
@@ -1628,7 +1628,7 @@
        "coordinates":  [ -75.3,40.2 ]
     },
     "properties": {
-    "Device ID":10361
+    "DeviceID":10361
     }
   },
   {
@@ -1638,7 +1638,7 @@
        "coordinates":  [ -76.3,39.8 ]
     },
     "properties": {
-    "Device ID":10362
+    "DeviceID":10362
     }
   },
   {
@@ -1648,7 +1648,7 @@
        "coordinates":  [ -75.6,40.2 ]
     },
     "properties": {
-    "Device ID":10363
+    "DeviceID":10363
     }
   },
   {
@@ -1658,7 +1658,7 @@
        "coordinates":  [ -75.6,40.2 ]
     },
     "properties": {
-    "Device ID":10364
+    "DeviceID":10364
     }
   },
   {
@@ -1668,7 +1668,7 @@
        "coordinates":  [ -78.3,39.1 ]
     },
     "properties": {
-    "Device ID":10399
+    "DeviceID":10399
     }
   },
   {
@@ -1678,7 +1678,7 @@
        "coordinates":  [ -78.3,39.1 ]
     },
     "properties": {
-    "Device ID":10400
+    "DeviceID":10400
     }
   },
   {
@@ -1688,7 +1688,7 @@
        "coordinates":  [ -78.3,39.1 ]
     },
     "properties": {
-    "Device ID":10401
+    "DeviceID":10401
     }
   },
   {
@@ -1698,7 +1698,7 @@
        "coordinates":  [ -78.9,39.5 ]
     },
     "properties": {
-    "Device ID":10402
+    "DeviceID":10402
     }
   },
   {
@@ -1708,7 +1708,7 @@
        "coordinates":  [ -78.9,39.5 ]
     },
     "properties": {
-    "Device ID":10403
+    "DeviceID":10403
     }
   },
   {
@@ -1718,7 +1718,7 @@
        "coordinates":  [ -77.9,39.5 ]
     },
     "properties": {
-    "Device ID":10404
+    "DeviceID":10404
     }
   },
   {
@@ -1728,7 +1728,7 @@
        "coordinates":  [ -77.9,39.5 ]
     },
     "properties": {
-    "Device ID":10405
+    "DeviceID":10405
     }
   },
   {
@@ -1738,7 +1738,7 @@
        "coordinates":  [ -77.9,39.5 ]
     },
     "properties": {
-    "Device ID":10406
+    "DeviceID":10406
     }
   },
   {
@@ -1748,7 +1748,7 @@
        "coordinates":  [ -77.9,39.5 ]
     },
     "properties": {
-    "Device ID":10407
+    "DeviceID":10407
     }
   },
   {
@@ -1758,7 +1758,7 @@
        "coordinates":  [ -77.5,39.3 ]
     },
     "properties": {
-    "Device ID":10409
+    "DeviceID":10409
     }
   },
   {
@@ -1768,7 +1768,7 @@
        "coordinates":  [ -77.5,39.3 ]
     },
     "properties": {
-    "Device ID":10410
+    "DeviceID":10410
     }
   },
   {
@@ -1778,7 +1778,7 @@
        "coordinates":  [ -77.5,39.3 ]
     },
     "properties": {
-    "Device ID":10411
+    "DeviceID":10411
     }
   },
   {
@@ -1788,7 +1788,7 @@
        "coordinates":  [ -77.5,39.3 ]
     },
     "properties": {
-    "Device ID":10412
+    "DeviceID":10412
     }
   },
   {
@@ -1798,7 +1798,7 @@
        "coordinates":  [ -77.5,39.3 ]
     },
     "properties": {
-    "Device ID":10413
+    "DeviceID":10413
     }
   },
   {
@@ -1808,7 +1808,7 @@
        "coordinates":  [ -77.4,39.4 ]
     },
     "properties": {
-    "Device ID":10414
+    "DeviceID":10414
     }
   },
   {
@@ -1818,7 +1818,7 @@
        "coordinates":  [ -103.2,44.1 ]
     },
     "properties": {
-    "Device ID":10415
+    "DeviceID":10415
     }
   },
   {
@@ -1828,7 +1828,7 @@
        "coordinates":  [ -103.2,44.1 ]
     },
     "properties": {
-    "Device ID":10416
+    "DeviceID":10416
     }
   },
   {
@@ -1838,7 +1838,7 @@
        "coordinates":  [ -115.2,39.4 ]
     },
     "properties": {
-    "Device ID":10418
+    "DeviceID":10418
     }
   },
   {
@@ -1848,7 +1848,7 @@
        "coordinates":  [ -75.5,39.5 ]
     },
     "properties": {
-    "Device ID":10420
+    "DeviceID":10420
     }
   },
   {
@@ -1858,7 +1858,7 @@
        "coordinates":  [ -75.5,39.5 ]
     },
     "properties": {
-    "Device ID":10421
+    "DeviceID":10421
     }
   },
   {
@@ -1868,7 +1868,7 @@
        "coordinates":  [ -78.7,36.8 ]
     },
     "properties": {
-    "Device ID":10425
+    "DeviceID":10425
     }
   },
   {
@@ -1878,7 +1878,7 @@
        "coordinates":  [ -78.8,38.1 ]
     },
     "properties": {
-    "Device ID":10426
+    "DeviceID":10426
     }
   },
   {
@@ -1888,7 +1888,7 @@
        "coordinates":  [ -77.5,39 ]
     },
     "properties": {
-    "Device ID":10427
+    "DeviceID":10427
     }
   },
   {
@@ -1898,7 +1898,7 @@
        "coordinates":  [ -76.5,36.7 ]
     },
     "properties": {
-    "Device ID":10428
+    "DeviceID":10428
     }
   },
   {
@@ -1908,7 +1908,7 @@
        "coordinates":  [ -76.3,36.7 ]
     },
     "properties": {
-    "Device ID":10429
+    "DeviceID":10429
     }
   },
   {
@@ -1918,7 +1918,7 @@
        "coordinates":  [ -75.2,43.2 ]
     },
     "properties": {
-    "Device ID":10438
+    "DeviceID":10438
     }
   },
   {
@@ -1928,7 +1928,7 @@
        "coordinates":  [ -81.6,34.2 ]
     },
     "properties": {
-    "Device ID":10441
+    "DeviceID":10441
     }
   },
   {
@@ -1938,7 +1938,7 @@
        "coordinates":  [ -78.9,33.8 ]
     },
     "properties": {
-    "Device ID":10442
+    "DeviceID":10442
     }
   },
   {
@@ -1948,7 +1948,7 @@
        "coordinates":  [ -74.2,41.1 ]
     },
     "properties": {
-    "Device ID":10445
+    "DeviceID":10445
     }
   },
   {
@@ -1958,7 +1958,7 @@
        "coordinates":  [ -121,37 ]
     },
     "properties": {
-    "Device ID":10446
+    "DeviceID":10446
     }
   },
   {
@@ -1968,7 +1968,7 @@
        "coordinates":  [ -121,37 ]
     },
     "properties": {
-    "Device ID":10447
+    "DeviceID":10447
     }
   },
   {
@@ -1978,7 +1978,7 @@
        "coordinates":  [ -120,37 ]
     },
     "properties": {
-    "Device ID":10448
+    "DeviceID":10448
     }
   },
   {
@@ -1988,7 +1988,7 @@
        "coordinates":  [ -120,37 ]
     },
     "properties": {
-    "Device ID":10449
+    "DeviceID":10449
     }
   },
   {
@@ -1998,7 +1998,7 @@
        "coordinates":  [ -104,40 ]
     },
     "properties": {
-    "Device ID":10584
+    "DeviceID":10584
     }
   },
   {
@@ -2008,7 +2008,7 @@
        "coordinates":  [ -80.1,33.1 ]
     },
     "properties": {
-    "Device ID":10585
+    "DeviceID":10585
     }
   },
   {
@@ -2018,7 +2018,7 @@
        "coordinates":  [ -81.7,36.9 ]
     },
     "properties": {
-    "Device ID":10588
+    "DeviceID":10588
     }
   },
   {
@@ -2028,7 +2028,7 @@
        "coordinates":  [ -81.7,36.9 ]
     },
     "properties": {
-    "Device ID":10589
+    "DeviceID":10589
     }
   },
   {
@@ -2038,7 +2038,7 @@
        "coordinates":  [ -84.5,37 ]
     },
     "properties": {
-    "Device ID":10593
+    "DeviceID":10593
     }
   },
   {
@@ -2048,7 +2048,7 @@
        "coordinates":  [ -66.4,48 ]
     },
     "properties": {
-    "Device ID":10628
+    "DeviceID":10628
     }
   },
   {
@@ -2058,7 +2058,7 @@
        "coordinates":  [ -97.6,33.7 ]
     },
     "properties": {
-    "Device ID":10630
+    "DeviceID":10630
     }
   },
   {
@@ -2068,7 +2068,7 @@
        "coordinates":  [ -87.7,43.7 ]
     },
     "properties": {
-    "Device ID":10635
+    "DeviceID":10635
     }
   },
   {
@@ -2078,7 +2078,7 @@
        "coordinates":  [ -87.7,43.7 ]
     },
     "properties": {
-    "Device ID":10636
+    "DeviceID":10636
     }
   },
   {
@@ -2088,7 +2088,7 @@
        "coordinates":  [ -104.8,40.1 ]
     },
     "properties": {
-    "Device ID":10637
+    "DeviceID":10637
     }
   },
   {
@@ -2098,7 +2098,7 @@
        "coordinates":  [ -115.5,32.8 ]
     },
     "properties": {
-    "Device ID":10648
+    "DeviceID":10648
     }
   },
   {
@@ -2108,7 +2108,7 @@
        "coordinates":  [ -74,42.8 ]
     },
     "properties": {
-    "Device ID":10649
+    "DeviceID":10649
     }
   },
   {
@@ -2118,7 +2118,7 @@
        "coordinates":  [ -78.7,43.1 ]
     },
     "properties": {
-    "Device ID":10658
+    "DeviceID":10658
     }
   },
   {
@@ -2128,7 +2128,7 @@
        "coordinates":  [ -87.9,42.5 ]
     },
     "properties": {
-    "Device ID":10659
+    "DeviceID":10659
     }
   },
   {
@@ -2138,7 +2138,7 @@
        "coordinates":  [ -72.6,41.7 ]
     },
     "properties": {
-    "Device ID":10674
+    "DeviceID":10674
     }
   },
   {
@@ -2148,7 +2148,7 @@
        "coordinates":  [ -65.9,47.9 ]
     },
     "properties": {
-    "Device ID":10675
+    "DeviceID":10675
     }
   },
   {
@@ -2158,7 +2158,7 @@
        "coordinates":  [ -66.8,46.1 ]
     },
     "properties": {
-    "Device ID":10676
+    "DeviceID":10676
     }
   },
   {
@@ -2168,7 +2168,7 @@
        "coordinates":  [ -66.2,45.2 ]
     },
     "properties": {
-    "Device ID":10677
+    "DeviceID":10677
     }
   },
   {
@@ -2178,7 +2178,7 @@
        "coordinates":  [ -87.9,31.5 ]
     },
     "properties": {
-    "Device ID":10678
+    "DeviceID":10678
     }
   },
   {
@@ -2188,7 +2188,7 @@
        "coordinates":  [ -106.2,32 ]
     },
     "properties": {
-    "Device ID":10694
+    "DeviceID":10694
     }
   },
   {
@@ -2198,7 +2198,7 @@
        "coordinates":  [ -85.9,41.7 ]
     },
     "properties": {
-    "Device ID":10702
+    "DeviceID":10702
     }
   },
   {
@@ -2208,7 +2208,7 @@
        "coordinates":  [ -81.6,41 ]
     },
     "properties": {
-    "Device ID":10646
+    "DeviceID":10646
     }
   },
   {
@@ -2218,7 +2218,7 @@
        "coordinates":  [ -74.5,40.2 ]
     },
     "properties": {
-    "Device ID":10647
+    "DeviceID":10647
     }
   },
   {
@@ -2228,7 +2228,7 @@
        "coordinates":  [ -88.6,36.2 ]
     },
     "properties": {
-    "Device ID":10660
+    "DeviceID":10660
     }
   },
   {
@@ -2238,7 +2238,7 @@
        "coordinates":  [ -87.9,36 ]
     },
     "properties": {
-    "Device ID":10661
+    "DeviceID":10661
     }
   },
   {
@@ -2248,7 +2248,7 @@
        "coordinates":  [ -86.9,37.2 ]
     },
     "properties": {
-    "Device ID":10691
+    "DeviceID":10691
     }
   },
   {
@@ -2258,7 +2258,7 @@
        "coordinates":  [ -86.9,37.2 ]
     },
     "properties": {
-    "Device ID":10692
+    "DeviceID":10692
     }
   },
   {
@@ -2268,7 +2268,7 @@
        "coordinates":  [ -84.1,36 ]
     },
     "properties": {
-    "Device ID":10693
+    "DeviceID":10693
     }
   },
   {
@@ -2278,7 +2278,7 @@
        "coordinates":  [ -85.9,40.4 ]
     },
     "properties": {
-    "Device ID":10696
+    "DeviceID":10696
     }
   },
   {
@@ -2288,7 +2288,7 @@
        "coordinates":  [ -80.8,36.8 ]
     },
     "properties": {
-    "Device ID":10697
+    "DeviceID":10697
     }
   },
   {
@@ -2298,7 +2298,7 @@
        "coordinates":  [ -98.1,26.1 ]
     },
     "properties": {
-    "Device ID":10698
+    "DeviceID":10698
     }
   },
   {
@@ -2308,7 +2308,7 @@
        "coordinates":  [ -81.6,37.6 ]
     },
     "properties": {
-    "Device ID":10699
+    "DeviceID":10699
     }
   },
   {
@@ -2318,7 +2318,7 @@
        "coordinates":  [ -81.6,37.6 ]
     },
     "properties": {
-    "Device ID":10700
+    "DeviceID":10700
     }
   },
   {
@@ -2328,7 +2328,7 @@
        "coordinates":  [ -82,27.7 ]
     },
     "properties": {
-    "Device ID":10086
+    "DeviceID":10086
     }
   },
   {
@@ -2338,7 +2338,7 @@
        "coordinates":  [ -82.4,27.9 ]
     },
     "properties": {
-    "Device ID":10087
+    "DeviceID":10087
     }
   },
   {
@@ -2348,7 +2348,7 @@
        "coordinates":  [ -82.4,27.9 ]
     },
     "properties": {
-    "Device ID":10088
+    "DeviceID":10088
     }
   },
   {
@@ -2358,7 +2358,7 @@
        "coordinates":  [ -82.4,27.8 ]
     },
     "properties": {
-    "Device ID":10089
+    "DeviceID":10089
     }
   },
   {
@@ -2368,7 +2368,7 @@
        "coordinates":  [ -82.1,27.8 ]
     },
     "properties": {
-    "Device ID":10090
+    "DeviceID":10090
     }
   },
   {
@@ -2378,7 +2378,7 @@
        "coordinates":  [ -82.3,27.7 ]
     },
     "properties": {
-    "Device ID":10091
+    "DeviceID":10091
     }
   },
   {
@@ -2388,7 +2388,7 @@
        "coordinates":  [ -73.8,41.7 ]
     },
     "properties": {
-    "Device ID":10180
+    "DeviceID":10180
     }
   },
   {
@@ -2398,7 +2398,7 @@
        "coordinates":  [ -74,41.9 ]
     },
     "properties": {
-    "Device ID":10181
+    "DeviceID":10181
     }
   },
   {
@@ -2408,7 +2408,7 @@
        "coordinates":  [ -98.5,26.6 ]
     },
     "properties": {
-    "Device ID":10182
+    "DeviceID":10182
     }
   },
   {
@@ -2418,7 +2418,7 @@
        "coordinates":  [ -78.2,39 ]
     },
     "properties": {
-    "Device ID":10184
+    "DeviceID":10184
     }
   },
   {
@@ -2428,7 +2428,7 @@
        "coordinates":  [ -81.3,39.3 ]
     },
     "properties": {
-    "Device ID":10185
+    "DeviceID":10185
     }
   },
   {
@@ -2438,7 +2438,7 @@
        "coordinates":  [ -80,42 ]
     },
     "properties": {
-    "Device ID":10186
+    "DeviceID":10186
     }
   },
   {
@@ -2448,7 +2448,7 @@
        "coordinates":  [ -81.6,41 ]
     },
     "properties": {
-    "Device ID":10187
+    "DeviceID":10187
     }
   },
   {
@@ -2458,7 +2458,7 @@
        "coordinates":  [ -90.5,41.3 ]
     },
     "properties": {
-    "Device ID":10191
+    "DeviceID":10191
     }
   },
   {
@@ -2468,7 +2468,7 @@
        "coordinates":  [ -71.4,41.6 ]
     },
     "properties": {
-    "Device ID":10193
+    "DeviceID":10193
     }
   },
   {
@@ -2478,7 +2478,7 @@
        "coordinates":  [ -73.9,42.6 ]
     },
     "properties": {
-    "Device ID":10194
+    "DeviceID":10194
     }
   },
   {
@@ -2488,7 +2488,7 @@
        "coordinates":  [ -74.9,39.7 ]
     },
     "properties": {
-    "Device ID":10195
+    "DeviceID":10195
     }
   },
   {
@@ -2498,7 +2498,7 @@
        "coordinates":  [ -111.9,33.3 ]
     },
     "properties": {
-    "Device ID":10196
+    "DeviceID":10196
     }
   },
   {
@@ -2508,7 +2508,7 @@
        "coordinates":  [ -82.2,36.4 ]
     },
     "properties": {
-    "Device ID":10197
+    "DeviceID":10197
     }
   },
   {
@@ -2518,7 +2518,7 @@
        "coordinates":  [ -84.9,35 ]
     },
     "properties": {
-    "Device ID":10199
+    "DeviceID":10199
     }
   },
   {
@@ -2528,7 +2528,7 @@
        "coordinates":  [ -86.7,34.1 ]
     },
     "properties": {
-    "Device ID":10200
+    "DeviceID":10200
     }
   },
   {
@@ -2538,7 +2538,7 @@
        "coordinates":  [ -87.2,36.5 ]
     },
     "properties": {
-    "Device ID":10201
+    "DeviceID":10201
     }
   },
   {
@@ -2548,7 +2548,7 @@
        "coordinates":  [ -90,34.9 ]
     },
     "properties": {
-    "Device ID":10202
+    "DeviceID":10202
     }
   },
   {
@@ -2558,7 +2558,7 @@
        "coordinates":  [ -85.3,35 ]
     },
     "properties": {
-    "Device ID":10203
+    "DeviceID":10203
     }
   },
   {
@@ -2568,7 +2568,7 @@
        "coordinates":  [ -89.8,35.3 ]
     },
     "properties": {
-    "Device ID":10204
+    "DeviceID":10204
     }
   },
   {
@@ -2578,7 +2578,7 @@
        "coordinates":  [ -88.8,36.2 ]
     },
     "properties": {
-    "Device ID":10205
+    "DeviceID":10205
     }
   },
   {
@@ -2588,7 +2588,7 @@
        "coordinates":  [ -84.1,36 ]
     },
     "properties": {
-    "Device ID":10207
+    "DeviceID":10207
     }
   },
   {
@@ -2598,7 +2598,7 @@
        "coordinates":  [ -86.5,35.8 ]
     },
     "properties": {
-    "Device ID":10208
+    "DeviceID":10208
     }
   },
   {
@@ -2608,7 +2608,7 @@
        "coordinates":  [ -85.7,34.8 ]
     },
     "properties": {
-    "Device ID":10209
+    "DeviceID":10209
     }
   },
   {
@@ -2618,7 +2618,7 @@
        "coordinates":  [ -88.8,34.3 ]
     },
     "properties": {
-    "Device ID":10211
+    "DeviceID":10211
     }
   },
   {
@@ -2628,7 +2628,7 @@
        "coordinates":  [ -86.6,36 ]
     },
     "properties": {
-    "Device ID":10212
+    "DeviceID":10212
     }
   },
   {
@@ -2638,7 +2638,7 @@
        "coordinates":  [ -81,36.1 ]
     },
     "properties": {
-    "Device ID":10219
+    "DeviceID":10219
     }
   },
   {
@@ -2648,7 +2648,7 @@
        "coordinates":  [ -87.4,39.4 ]
     },
     "properties": {
-    "Device ID":10220
+    "DeviceID":10220
     }
   },
   {
@@ -2658,7 +2658,7 @@
        "coordinates":  [ -80.6,32.8 ]
     },
     "properties": {
-    "Device ID":10248
+    "DeviceID":10248
     }
   },
   {
@@ -2668,7 +2668,7 @@
        "coordinates":  [ -81,33.3 ]
     },
     "properties": {
-    "Device ID":10249
+    "DeviceID":10249
     }
   },
   {
@@ -2678,7 +2678,7 @@
        "coordinates":  [ -80.9,34.1 ]
     },
     "properties": {
-    "Device ID":10250
+    "DeviceID":10250
     }
   },
   {
@@ -2688,7 +2688,7 @@
        "coordinates":  [ -82.3,35.9 ]
     },
     "properties": {
-    "Device ID":10251
+    "DeviceID":10251
     }
   },
   {
@@ -2698,7 +2698,7 @@
        "coordinates":  [ -79,36.4 ]
     },
     "properties": {
-    "Device ID":10252
+    "DeviceID":10252
     }
   },
   {
@@ -2708,7 +2708,7 @@
        "coordinates":  [ -91.7,41.9 ]
     },
     "properties": {
-    "Device ID":10287
+    "DeviceID":10287
     }
   },
   {
@@ -2718,7 +2718,7 @@
        "coordinates":  [ -97.5,39.5 ]
     },
     "properties": {
-    "Device ID":10290
+    "DeviceID":10290
     }
   },
   {
@@ -2728,7 +2728,7 @@
        "coordinates":  [ -95.2,29.8 ]
     },
     "properties": {
-    "Device ID":10325
+    "DeviceID":10325
     }
   },
   {
@@ -2738,7 +2738,7 @@
        "coordinates":  [ -71.8,42.4 ]
     },
     "properties": {
-    "Device ID":10367
+    "DeviceID":10367
     }
   },
   {
@@ -2748,7 +2748,7 @@
        "coordinates":  [ -71.8,42.4 ]
     },
     "properties": {
-    "Device ID":10368
+    "DeviceID":10368
     }
   },
   {
@@ -2758,7 +2758,7 @@
        "coordinates":  [ -71.8,42.4 ]
     },
     "properties": {
-    "Device ID":10369
+    "DeviceID":10369
     }
   },
   {
@@ -2768,7 +2768,7 @@
        "coordinates":  [ -71.8,42.4 ]
     },
     "properties": {
-    "Device ID":10372
+    "DeviceID":10372
     }
   },
   {
@@ -2778,7 +2778,7 @@
        "coordinates":  [ -73.9,42.6 ]
     },
     "properties": {
-    "Device ID":10373
+    "DeviceID":10373
     }
   },
   {
@@ -2788,7 +2788,7 @@
        "coordinates":  [ -71.5,42.6 ]
     },
     "properties": {
-    "Device ID":10374
+    "DeviceID":10374
     }
   },
   {
@@ -2798,7 +2798,7 @@
        "coordinates":  [ -73.9,40.9 ]
     },
     "properties": {
-    "Device ID":10376
+    "DeviceID":10376
     }
   },
   {
@@ -2808,7 +2808,7 @@
        "coordinates":  [ -74,40.7 ]
     },
     "properties": {
-    "Device ID":10377
+    "DeviceID":10377
     }
   },
   {
@@ -2818,7 +2818,7 @@
        "coordinates":  [ -74,40.7 ]
     },
     "properties": {
-    "Device ID":10378
+    "DeviceID":10378
     }
   },
   {
@@ -2828,7 +2828,7 @@
        "coordinates":  [ -74,40.7 ]
     },
     "properties": {
-    "Device ID":10379
+    "DeviceID":10379
     }
   },
   {
@@ -2838,7 +2838,7 @@
        "coordinates":  [ -73.8,41.1 ]
     },
     "properties": {
-    "Device ID":10380
+    "DeviceID":10380
     }
   },
   {
@@ -2848,7 +2848,7 @@
        "coordinates":  [ -74,40.7 ]
     },
     "properties": {
-    "Device ID":10381
+    "DeviceID":10381
     }
   },
   {
@@ -2858,7 +2858,7 @@
        "coordinates":  [ -74.2,40.6 ]
     },
     "properties": {
-    "Device ID":10382
+    "DeviceID":10382
     }
   },
   {
@@ -2868,7 +2868,7 @@
        "coordinates":  [ -74.2,40.6 ]
     },
     "properties": {
-    "Device ID":10383
+    "DeviceID":10383
     }
   },
   {
@@ -2878,7 +2878,7 @@
        "coordinates":  [ -73.8,41.2 ]
     },
     "properties": {
-    "Device ID":10385
+    "DeviceID":10385
     }
   },
   {
@@ -2888,7 +2888,7 @@
        "coordinates":  [ -73.9,40.8 ]
     },
     "properties": {
-    "Device ID":10386
+    "DeviceID":10386
     }
   },
   {
@@ -2898,7 +2898,7 @@
        "coordinates":  [ -73.9,41 ]
     },
     "properties": {
-    "Device ID":10387
+    "DeviceID":10387
     }
   },
   {
@@ -2908,7 +2908,7 @@
        "coordinates":  [ -73.9,41 ]
     },
     "properties": {
-    "Device ID":10388
+    "DeviceID":10388
     }
   },
   {
@@ -2918,7 +2918,7 @@
        "coordinates":  [ -75.6,39.6 ]
     },
     "properties": {
-    "Device ID":10430
+    "DeviceID":10430
     }
   },
   {
@@ -2928,7 +2928,7 @@
        "coordinates":  [ -75.7,39.6 ]
     },
     "properties": {
-    "Device ID":10431
+    "DeviceID":10431
     }
   },
   {
@@ -2938,7 +2938,7 @@
        "coordinates":  [ -76.6,38.5 ]
     },
     "properties": {
-    "Device ID":10432
+    "DeviceID":10432
     }
   },
   {
@@ -2948,7 +2948,7 @@
        "coordinates":  [ -76.6,38.5 ]
     },
     "properties": {
-    "Device ID":10433
+    "DeviceID":10433
     }
   },
   {
@@ -2958,7 +2958,7 @@
        "coordinates":  [ -75.1,39.5 ]
     },
     "properties": {
-    "Device ID":10434
+    "DeviceID":10434
     }
   },
   {
@@ -2968,7 +2968,7 @@
        "coordinates":  [ -74.6,39.4 ]
     },
     "properties": {
-    "Device ID":10435
+    "DeviceID":10435
     }
   },
   {
@@ -2978,7 +2978,7 @@
        "coordinates":  [ -74.6,39.4 ]
     },
     "properties": {
-    "Device ID":10436
+    "DeviceID":10436
     }
   },
   {
@@ -2988,7 +2988,7 @@
        "coordinates":  [ -85,41 ]
     },
     "properties": {
-    "Device ID":10450
+    "DeviceID":10450
     }
   },
   {
@@ -2998,7 +2998,7 @@
        "coordinates":  [ -81.8,38.5 ]
     },
     "properties": {
-    "Device ID":10453
+    "DeviceID":10453
     }
   },
   {
@@ -3008,7 +3008,7 @@
        "coordinates":  [ -79.7,36.6 ]
     },
     "properties": {
-    "Device ID":10454
+    "DeviceID":10454
     }
   },
   {
@@ -3018,7 +3018,7 @@
        "coordinates":  [ -82.7,40.1 ]
     },
     "properties": {
-    "Device ID":10455
+    "DeviceID":10455
     }
   },
   {
@@ -3028,7 +3028,7 @@
        "coordinates":  [ -82.6,38.2 ]
     },
     "properties": {
-    "Device ID":10456
+    "DeviceID":10456
     }
   },
   {
@@ -3038,7 +3038,7 @@
        "coordinates":  [ -86.3,42.2 ]
     },
     "properties": {
-    "Device ID":10458
+    "DeviceID":10458
     }
   },
   {
@@ -3048,7 +3048,7 @@
        "coordinates":  [ -96.2,28.9 ]
     },
     "properties": {
-    "Device ID":10460
+    "DeviceID":10460
     }
   },
   {
@@ -3058,7 +3058,7 @@
        "coordinates":  [ -100,32.2 ]
     },
     "properties": {
-    "Device ID":10461
+    "DeviceID":10461
     }
   },
   {
@@ -3068,7 +3068,7 @@
        "coordinates":  [ -100,32.2 ]
     },
     "properties": {
-    "Device ID":10462
+    "DeviceID":10462
     }
   },
   {
@@ -3078,7 +3078,7 @@
        "coordinates":  [ -99.7,35.4 ]
     },
     "properties": {
-    "Device ID":10463
+    "DeviceID":10463
     }
   },
   {
@@ -3088,7 +3088,7 @@
        "coordinates":  [ -99.7,35.4 ]
     },
     "properties": {
-    "Device ID":10464
+    "DeviceID":10464
     }
   },
   {
@@ -3098,7 +3098,7 @@
        "coordinates":  [ -79.9,37.4 ]
     },
     "properties": {
-    "Device ID":10467
+    "DeviceID":10467
     }
   },
   {
@@ -3108,7 +3108,7 @@
        "coordinates":  [ -79.9,37.4 ]
     },
     "properties": {
-    "Device ID":10468
+    "DeviceID":10468
     }
   },
   {
@@ -3118,7 +3118,7 @@
        "coordinates":  [ -79.9,37.4 ]
     },
     "properties": {
-    "Device ID":10469
+    "DeviceID":10469
     }
   },
   {
@@ -3128,7 +3128,7 @@
        "coordinates":  [ -79.9,37.4 ]
     },
     "properties": {
-    "Device ID":10470
+    "DeviceID":10470
     }
   },
   {
@@ -3138,7 +3138,7 @@
        "coordinates":  [ -79.9,37.4 ]
     },
     "properties": {
-    "Device ID":10471
+    "DeviceID":10471
     }
   },
   {
@@ -3148,7 +3148,7 @@
        "coordinates":  [ -97.2,28.7 ]
     },
     "properties": {
-    "Device ID":10473
+    "DeviceID":10473
     }
   },
   {
@@ -3158,7 +3158,7 @@
        "coordinates":  [ -97.2,28.7 ]
     },
     "properties": {
-    "Device ID":10474
+    "DeviceID":10474
     }
   },
   {
@@ -3168,7 +3168,7 @@
        "coordinates":  [ -81.9,40.2 ]
     },
     "properties": {
-    "Device ID":10475
+    "DeviceID":10475
     }
   },
   {
@@ -3178,7 +3178,7 @@
        "coordinates":  [ -82.8,40.1 ]
     },
     "properties": {
-    "Device ID":10476
+    "DeviceID":10476
     }
   },
   {
@@ -3188,7 +3188,7 @@
        "coordinates":  [ -95.4,31.4 ]
     },
     "properties": {
-    "Device ID":10477
+    "DeviceID":10477
     }
   },
   {
@@ -3198,7 +3198,7 @@
        "coordinates":  [ -86.6,42 ]
     },
     "properties": {
-    "Device ID":10478
+    "DeviceID":10478
     }
   },
   {
@@ -3208,7 +3208,7 @@
        "coordinates":  [ -86.6,42 ]
     },
     "properties": {
-    "Device ID":10480
+    "DeviceID":10480
     }
   },
   {
@@ -3218,7 +3218,7 @@
        "coordinates":  [ -85.3,40.2 ]
     },
     "properties": {
-    "Device ID":10481
+    "DeviceID":10481
     }
   },
   {
@@ -3228,7 +3228,7 @@
        "coordinates":  [ -85.3,40.2 ]
     },
     "properties": {
-    "Device ID":10482
+    "DeviceID":10482
     }
   },
   {
@@ -3238,7 +3238,7 @@
        "coordinates":  [ -83,39 ]
     },
     "properties": {
-    "Device ID":10483
+    "DeviceID":10483
     }
   },
   {
@@ -3248,7 +3248,7 @@
        "coordinates":  [ -83,39 ]
     },
     "properties": {
-    "Device ID":10484
+    "DeviceID":10484
     }
   },
   {
@@ -3258,7 +3258,7 @@
        "coordinates":  [ -83,39 ]
     },
     "properties": {
-    "Device ID":10485
+    "DeviceID":10485
     }
   },
   {
@@ -3268,7 +3268,7 @@
        "coordinates":  [ -86.4,41.5 ]
     },
     "properties": {
-    "Device ID":10487
+    "DeviceID":10487
     }
   },
   {
@@ -3278,7 +3278,7 @@
        "coordinates":  [ -79.3,36.6 ]
     },
     "properties": {
-    "Device ID":10489
+    "DeviceID":10489
     }
   },
   {
@@ -3288,7 +3288,7 @@
        "coordinates":  [ -85.9,41.7 ]
     },
     "properties": {
-    "Device ID":10490
+    "DeviceID":10490
     }
   },
   {
@@ -3298,7 +3298,7 @@
        "coordinates":  [ -84,40.8 ]
     },
     "properties": {
-    "Device ID":10492
+    "DeviceID":10492
     }
   },
   {
@@ -3308,7 +3308,7 @@
        "coordinates":  [ -79.9,36.7 ]
     },
     "properties": {
-    "Device ID":10493
+    "DeviceID":10493
     }
   },
   {
@@ -3318,7 +3318,7 @@
        "coordinates":  [ -79.9,36.7 ]
     },
     "properties": {
-    "Device ID":10494
+    "DeviceID":10494
     }
   },
   {
@@ -3328,7 +3328,7 @@
        "coordinates":  [ -79.9,36.7 ]
     },
     "properties": {
-    "Device ID":10495
+    "DeviceID":10495
     }
   },
   {
@@ -3338,7 +3338,7 @@
        "coordinates":  [ -94.5,36.3 ]
     },
     "properties": {
-    "Device ID":10496
+    "DeviceID":10496
     }
   },
   {
@@ -3348,7 +3348,7 @@
        "coordinates":  [ -84.1,40.5 ]
     },
     "properties": {
-    "Device ID":10497
+    "DeviceID":10497
     }
   },
   {
@@ -3358,7 +3358,7 @@
        "coordinates":  [ -83.1,40.2 ]
     },
     "properties": {
-    "Device ID":10498
+    "DeviceID":10498
     }
   },
   {
@@ -3368,7 +3368,7 @@
        "coordinates":  [ -83.1,40.2 ]
     },
     "properties": {
-    "Device ID":10499
+    "DeviceID":10499
     }
   },
   {
@@ -3378,7 +3378,7 @@
        "coordinates":  [ -86.3,41.6 ]
     },
     "properties": {
-    "Device ID":10500
+    "DeviceID":10500
     }
   },
   {
@@ -3388,7 +3388,7 @@
        "coordinates":  [ -80.8,36.9 ]
     },
     "properties": {
-    "Device ID":10502
+    "DeviceID":10502
     }
   },
   {
@@ -3398,7 +3398,7 @@
        "coordinates":  [ -80.8,36.9 ]
     },
     "properties": {
-    "Device ID":10503
+    "DeviceID":10503
     }
   },
   {
@@ -3408,7 +3408,7 @@
        "coordinates":  [ -80.8,36.9 ]
     },
     "properties": {
-    "Device ID":10504
+    "DeviceID":10504
     }
   },
   {
@@ -3418,7 +3418,7 @@
        "coordinates":  [ -85.4,38.7 ]
     },
     "properties": {
-    "Device ID":10506
+    "DeviceID":10506
     }
   },
   {
@@ -3428,7 +3428,7 @@
        "coordinates":  [ -82.7,40.1 ]
     },
     "properties": {
-    "Device ID":10507
+    "DeviceID":10507
     }
   },
   {
@@ -3438,7 +3438,7 @@
        "coordinates":  [ -80.8,39.8 ]
     },
     "properties": {
-    "Device ID":10509
+    "DeviceID":10509
     }
   },
   {
@@ -3448,7 +3448,7 @@
        "coordinates":  [ -86.2,41.9 ]
     },
     "properties": {
-    "Device ID":10511
+    "DeviceID":10511
     }
   },
   {
@@ -3458,7 +3458,7 @@
        "coordinates":  [ -82.6,40 ]
     },
     "properties": {
-    "Device ID":10512
+    "DeviceID":10512
     }
   },
   {
@@ -3468,7 +3468,7 @@
        "coordinates":  [ -97.6,26.1 ]
     },
     "properties": {
-    "Device ID":10513
+    "DeviceID":10513
     }
   },
   {
@@ -3478,7 +3478,7 @@
        "coordinates":  [ -97.6,26.1 ]
     },
     "properties": {
-    "Device ID":10515
+    "DeviceID":10515
     }
   },
   {
@@ -3488,7 +3488,7 @@
        "coordinates":  [ -81.2,39.6 ]
     },
     "properties": {
-    "Device ID":10516
+    "DeviceID":10516
     }
   },
   {
@@ -3498,7 +3498,7 @@
        "coordinates":  [ -93.2,32 ]
     },
     "properties": {
-    "Device ID":10517
+    "DeviceID":10517
     }
   },
   {
@@ -3508,7 +3508,7 @@
        "coordinates":  [ -99.3,27.6 ]
     },
     "properties": {
-    "Device ID":10518
+    "DeviceID":10518
     }
   },
   {
@@ -3518,7 +3518,7 @@
        "coordinates":  [ -97.6,27.8 ]
     },
     "properties": {
-    "Device ID":10519
+    "DeviceID":10519
     }
   },
   {
@@ -3528,7 +3528,7 @@
        "coordinates":  [ -97.6,27.8 ]
     },
     "properties": {
-    "Device ID":10520
+    "DeviceID":10520
     }
   },
   {
@@ -3538,7 +3538,7 @@
        "coordinates":  [ -103.1,31.3 ]
     },
     "properties": {
-    "Device ID":10521
+    "DeviceID":10521
     }
   },
   {
@@ -3548,7 +3548,7 @@
        "coordinates":  [ -83,40.2 ]
     },
     "properties": {
-    "Device ID":10524
+    "DeviceID":10524
     }
   },
   {
@@ -3558,7 +3558,7 @@
        "coordinates":  [ -83,40.2 ]
     },
     "properties": {
-    "Device ID":10525
+    "DeviceID":10525
     }
   },
   {
@@ -3568,7 +3568,7 @@
        "coordinates":  [ -83.4,40.3 ]
     },
     "properties": {
-    "Device ID":10527
+    "DeviceID":10527
     }
   },
   {
@@ -3578,7 +3578,7 @@
        "coordinates":  [ -80.2,37.2 ]
     },
     "properties": {
-    "Device ID":10528
+    "DeviceID":10528
     }
   },
   {
@@ -3588,7 +3588,7 @@
        "coordinates":  [ -80.2,37.2 ]
     },
     "properties": {
-    "Device ID":10529
+    "DeviceID":10529
     }
   },
   {
@@ -3598,7 +3598,7 @@
        "coordinates":  [ -81.9,39 ]
     },
     "properties": {
-    "Device ID":10530
+    "DeviceID":10530
     }
   },
   {
@@ -3608,7 +3608,7 @@
        "coordinates":  [ -99.8,32.5 ]
     },
     "properties": {
-    "Device ID":10531
+    "DeviceID":10531
     }
   },
   {
@@ -3618,7 +3618,7 @@
        "coordinates":  [ -99.8,32.5 ]
     },
     "properties": {
-    "Device ID":10532
+    "DeviceID":10532
     }
   },
   {
@@ -3628,7 +3628,7 @@
        "coordinates":  [ -82.7,36.6 ]
     },
     "properties": {
-    "Device ID":10534
+    "DeviceID":10534
     }
   },
   {
@@ -3638,7 +3638,7 @@
        "coordinates":  [ -97.7,27.6 ]
     },
     "properties": {
-    "Device ID":10537
+    "DeviceID":10537
     }
   },
   {
@@ -3648,7 +3648,7 @@
        "coordinates":  [ -98.2,26.3 ]
     },
     "properties": {
-    "Device ID":10538
+    "DeviceID":10538
     }
   },
   {
@@ -3658,7 +3658,7 @@
        "coordinates":  [ -98.2,26.3 ]
     },
     "properties": {
-    "Device ID":10539
+    "DeviceID":10539
     }
   },
   {
@@ -3668,7 +3668,7 @@
        "coordinates":  [ -86.5,41.7 ]
     },
     "properties": {
-    "Device ID":10541
+    "DeviceID":10541
     }
   },
   {
@@ -3678,7 +3678,7 @@
        "coordinates":  [ -95.7,36 ]
     },
     "properties": {
-    "Device ID":10542
+    "DeviceID":10542
     }
   },
   {
@@ -3688,7 +3688,7 @@
        "coordinates":  [ -79.1,37.4 ]
     },
     "properties": {
-    "Device ID":10545
+    "DeviceID":10545
     }
   },
   {
@@ -3698,7 +3698,7 @@
        "coordinates":  [ -79.1,37.4 ]
     },
     "properties": {
-    "Device ID":10546
+    "DeviceID":10546
     }
   },
   {
@@ -3708,7 +3708,7 @@
        "coordinates":  [ -79.1,37.4 ]
     },
     "properties": {
-    "Device ID":10547
+    "DeviceID":10547
     }
   },
   {
@@ -3718,7 +3718,7 @@
        "coordinates":  [ -98.2,26.2 ]
     },
     "properties": {
-    "Device ID":10548
+    "DeviceID":10548
     }
   },
   {
@@ -3728,7 +3728,7 @@
        "coordinates":  [ -98.2,26.2 ]
     },
     "properties": {
-    "Device ID":10549
+    "DeviceID":10549
     }
   },
   {
@@ -3738,7 +3738,7 @@
        "coordinates":  [ -97.6,26.3 ]
     },
     "properties": {
-    "Device ID":10550
+    "DeviceID":10550
     }
   },
   {
@@ -3748,7 +3748,7 @@
        "coordinates":  [ -97.6,26.3 ]
     },
     "properties": {
-    "Device ID":10551
+    "DeviceID":10551
     }
   },
   {
@@ -3758,7 +3758,7 @@
        "coordinates":  [ -83.1,40 ]
     },
     "properties": {
-    "Device ID":10552
+    "DeviceID":10552
     }
   },
   {
@@ -3768,7 +3768,7 @@
        "coordinates":  [ -87,37.9 ]
     },
     "properties": {
-    "Device ID":10554
+    "DeviceID":10554
     }
   },
   {
@@ -3778,7 +3778,7 @@
        "coordinates":  [ -100.3,31.5 ]
     },
     "properties": {
-    "Device ID":10557
+    "DeviceID":10557
     }
   },
   {
@@ -3788,7 +3788,7 @@
        "coordinates":  [ -103.4,30.9 ]
     },
     "properties": {
-    "Device ID":10558
+    "DeviceID":10558
     }
   },
   {
@@ -3798,7 +3798,7 @@
        "coordinates":  [ -103.4,30.9 ]
     },
     "properties": {
-    "Device ID":10559
+    "DeviceID":10559
     }
   },
   {
@@ -3808,7 +3808,7 @@
        "coordinates":  [ -85.3,41 ]
     },
     "properties": {
-    "Device ID":10560
+    "DeviceID":10560
     }
   },
   {
@@ -3818,7 +3818,7 @@
        "coordinates":  [ -83.3,41 ]
     },
     "properties": {
-    "Device ID":10561
+    "DeviceID":10561
     }
   },
   {
@@ -3828,7 +3828,7 @@
        "coordinates":  [ -81.4,40.7 ]
     },
     "properties": {
-    "Device ID":10563
+    "DeviceID":10563
     }
   },
   {
@@ -3838,7 +3838,7 @@
        "coordinates":  [ -84.2,40.7 ]
     },
     "properties": {
-    "Device ID":10564
+    "DeviceID":10564
     }
   },
   {
@@ -3848,7 +3848,7 @@
        "coordinates":  [ -98.2,26.1 ]
     },
     "properties": {
-    "Device ID":10565
+    "DeviceID":10565
     }
   },
   {
@@ -3858,7 +3858,7 @@
        "coordinates":  [ -87.5,39.2 ]
     },
     "properties": {
-    "Device ID":10567
+    "DeviceID":10567
     }
   },
   {
@@ -3868,7 +3868,7 @@
        "coordinates":  [ -87.5,39.2 ]
     },
     "properties": {
-    "Device ID":10568
+    "DeviceID":10568
     }
   },
   {
@@ -3878,7 +3878,7 @@
        "coordinates":  [ -87.5,39.2 ]
     },
     "properties": {
-    "Device ID":10569
+    "DeviceID":10569
     }
   },
   {
@@ -3888,7 +3888,7 @@
        "coordinates":  [ -80.7,40.2 ]
     },
     "properties": {
-    "Device ID":10570
+    "DeviceID":10570
     }
   },
   {
@@ -3898,7 +3898,7 @@
        "coordinates":  [ -82.5,38.4 ]
     },
     "properties": {
-    "Device ID":10572
+    "DeviceID":10572
     }
   },
   {
@@ -3908,7 +3908,7 @@
        "coordinates":  [ -82.5,38.4 ]
     },
     "properties": {
-    "Device ID":10573
+    "DeviceID":10573
     }
   },
   {
@@ -3918,7 +3918,7 @@
        "coordinates":  [ -82.5,38.4 ]
     },
     "properties": {
-    "Device ID":10574
+    "DeviceID":10574
     }
   },
   {
@@ -3928,7 +3928,7 @@
        "coordinates":  [ -86.1,41.7 ]
     },
     "properties": {
-    "Device ID":10575
+    "DeviceID":10575
     }
   },
   {
@@ -3938,7 +3938,7 @@
        "coordinates":  [ -86.1,41.7 ]
     },
     "properties": {
-    "Device ID":10576
+    "DeviceID":10576
     }
   },
   {
@@ -3948,7 +3948,7 @@
        "coordinates":  [ -84.9,41.4 ]
     },
     "properties": {
-    "Device ID":10577
+    "DeviceID":10577
     }
   },
   {
@@ -3958,7 +3958,7 @@
        "coordinates":  [ -82.8,40.2 ]
     },
     "properties": {
-    "Device ID":10578
+    "DeviceID":10578
     }
   },
   {
@@ -3968,7 +3968,7 @@
        "coordinates":  [ -94.5,32.8 ]
     },
     "properties": {
-    "Device ID":10581
+    "DeviceID":10581
     }
   }
 ]
