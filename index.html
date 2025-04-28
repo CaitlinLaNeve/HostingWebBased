@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Deck.gl Map with 3D Buildings</title>
+  <title>Deck.gl + Mapbox + 3D Buildings + Occupancy Points</title>
   <meta name="viewport" content="initial-scale=1, width=device-width" />
   <style>
     body, html, #container {
@@ -23,38 +23,86 @@
 <div id="container"></div>
 
 <script>
-const { DeckGL, MapboxLayer } = deck;
+const { MapboxOverlay, ScatterplotLayer } = deck;
 
-const MAPBOX_TOKEN = 'pk.eyJ1IjoiZHBmb3NlciIsImEiOiJjazlxaHRvbmMwazR2M2Vwbmpha3I5c28yIn0.nklv92j_cl0t2HsHD579AQ'; // Your token
+const MAPBOX_TOKEN = 'pk.eyJ1IjoiZHBmb3NlciIsImEiOiJjazlxaHRvbmMwazR2M2Vwbmpha3I5c28yIn0.nklv92j_cl0t2HsHD579AQ';
 
+const INITIAL_VIEW_STATE = {
+  center: [-122.4194, 37.7749], // San Francisco
+  zoom: 13,
+  pitch: 60,
+  bearing: -30
+};
+
+// Step 1: Create the Mapbox map
 const map = new mapboxgl.Map({
   container: 'container',
   style: 'mapbox://styles/mapbox/light-v11',
-  center: [-122.4194, 37.7749], // San Francisco
-  zoom: 14,
-  pitch: 60,
-  bearing: -30,
-  accessToken: MAPBOX_TOKEN,
+  center: INITIAL_VIEW_STATE.center,
+  zoom: INITIAL_VIEW_STATE.zoom,
+  pitch: INITIAL_VIEW_STATE.pitch,
+  bearing: INITIAL_VIEW_STATE.bearing,
+  accessToken: MAPBOX_TOKEN
 });
 
-// Wait until the map is ready
+// Step 2: Add 3D Buildings
 map.on('load', () => {
-  // Add 3D Buildings Layer
+  console.log("✅ Map loaded.");
+
   map.addLayer({
-    'id': '3d-buildings',
-    'source': 'composite',
+    id: '3d-buildings',
+    source: 'composite',
     'source-layer': 'building',
-    'filter': ['==', 'extrude', 'true'],
-    'type': 'fill-extrusion',
-    'minzoom': 12,
-    'paint': {
+    filter: ['==', 'extrude', 'true'],
+    type: 'fill-extrusion',
+    minzoom: 12,
+    paint: {
       'fill-extrusion-color': '#aaa',
       'fill-extrusion-height': ['get', 'height'],
       'fill-extrusion-base': ['get', 'min_height'],
       'fill-extrusion-opacity': 0.6
     }
   });
+
+  console.log("✅ 3D buildings added.");
+
+  // Step 3: Attach Deck.gl overlay with points
+  const overlay = new MapboxOverlay({
+    interleaved: true,
+    layers: [
+      new ScatterplotLayer({
+        id: 'building-occupancy-layer',
+        data: 'building_occupancy_sf_5k.json', // Correct local file reference
+        getPosition: d => d.coordinate, 
+        getRadius: d => d.people.length * 5, // Radius based on number of people
+        getFillColor: [255, 140, 0], // Orange
+        radiusMinPixels: 2,
+        radiusMaxPixels: 30,
+        pickable: true,
+        onHover: ({object, x, y}) => {
+          const tooltip = document.getElementById('tooltip');
+          if (object) {
+            tooltip.style.left = x + 'px';
+            tooltip.style.top = y + 'px';
+            tooltip.style.display = 'block';
+            tooltip.innerHTML = `
+              <b>Building:</b> ${object.place || 'N/A'}<br/>
+              <b>People:</b> ${object.people.length}
+            `;
+          } else {
+            tooltip.style.display = 'none';
+          }
+        }
+      })
+    ]
+  });
+
+  map.addControl(overlay);
 });
 </script>
+
+<!-- Tooltip container -->
+<div id="tooltip" style="position: absolute; background: rgba(0,0,0,0.8); color: white; padding: 4px; border-radius: 4px; display: none; pointer-events: none;"></div>
+
 </body>
 </html>
