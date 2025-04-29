@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SF Occupancy Animation</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Mapbox -->
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
+
+  <!-- Deck.GL -->
+  <script src="https://unpkg.com/deck.gl@8.9.24/dist.min.js"></script>
+  <script src="https://unpkg.com/@deck.gl/mapbox@8.9.24/dist.min.js"></script>
+
+  <style>
+    body { margin: 0; padding: 0; }
+    #map { position: absolute; top: 0; bottom: 0; width: 100%; }
+    #time-display {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      padding: 5px 10px;
+      background: rgba(255,255,255,0.85);
+      font-family: sans-serif;
+      font-size: 14px;
+      border-radius: 4px;
+      z-index: 10;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="map"></div>
+  <div id="time-display">Loading...</div>
+
+  <script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZHBmb3NlciIsImEiOiJjazlxaHRvbmMwazR2M2Vwbmpha3I5c28yIn0.nklv92j_cl0t2HsHD579AQ';
+
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/light-v11',
+      center: [-122.433701, 37.767683],
+      zoom: 13,
+      pitch: 60,
+      bearing: -17.6,
+      antialias: true
+    });
+
+    const deckOverlay = new deck.MapboxOverlay({ layers: [] });
+    map.addControl(deckOverlay);
+
+    fetch('building_occupancy_sf_5k.json')
+      .then(response => response.json())
+      .then(data => {
+        let currentTime = 0;
+        const maxTime = 86400;
+        const frameDuration = 500;
+
+        function formatTime(seconds) {
+          const hrs = Math.floor(seconds / 3600);
+          const mins = Math.floor((seconds % 3600) / 60);
+          return `${String(hrs).padStart(2,'0')}:${String(mins).padStart(2,'0')}`;
+        }
+
+        function getColor(people) {
+          if (people === 0) return [150, 150, 150, 200];       // gray
+          if (people === 1) return [0, 200, 0, 200];            // green
+          if (people === 2) return [255, 255, 0, 200];          // yellow
+          if (people === 3) return [255, 165, 0, 200];          // orange
+          if (people === 4) return [255, 0, 0, 200];            // red
+          return [139, 0, 0, 200];                              // dark red (5+)
+        }
+
+        function getCurrentLayer(time) {
+          const filteredPoints = data.map(d => {
+            let lastPeopleCount = 0;
+            for (let i = 0; i < d.timestamps.length; i++) {
+              if (d.timestamps[i] <= time) {
+                lastPeopleCount = d.people[i];
+              }
+            }
+
+            console.log(`Building ${d.building_id} | Time: ${time} | People: ${lastPeopleCount}`);
+
+            return {
+              position: d.coordinate,
+              people: lastPeopleCount,
+              building_id: d.building_id,
+              place: d.place
+            };
+          });
+
+          return new deck.ScatterplotLayer({
+            id: 'occupancy-points',
+            data: filteredPoints,
+            getPosition: d => d.position,
+            getFillColor: d => getColor(d.people),
+            getRadius: 10,
+            radiusUnits: 'pixels',
+            pickable: true,
+            getTooltip: ({object}) => object ? `People: ${object.people}<br>Place: ${object.place}` : null
+          });
+        }
+
+        function animate() {
+          currentTime += 600; // 10 min per frame
+          if (currentTime > maxTime) currentTime = 0;
+
+          const currentLayer = getCurrentLayer(currentTime);
+          deckOverlay.setProps({ layers: [currentLayer] });
+
+          document.getElementById('time-display').innerText = `Time: ${formatTime(currentTime)}`;
+          setTimeout(animate, frameDuration);
+        }
+
+        animate();
+      })
+      .catch(error => console.error('Error loading data:', error));
+  </script>
+</body>
+</html>
