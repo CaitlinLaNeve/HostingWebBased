@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>SF Occupancy Animation - Zoom Fade</title>
+  <title>GGS 692 Final Project - SF Occupancy</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <!-- Mapbox -->
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
   <link href="https://api.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css" rel="stylesheet" />
-  
+
   <!-- Deck.GL -->
   <script src="https://unpkg.com/deck.gl@8.9.24/dist.min.js"></script>
   <script src="https://unpkg.com/@deck.gl/mapbox@8.9.24/dist.min.js"></script>
@@ -26,20 +26,34 @@
       z-index: 9999;
       max-width: 300px;
     }
-    .legend { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+    .legend { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px; }
     .legend div { display: flex; align-items: center; font-size: 12px; gap: 4px; }
     .legend-color { width: 14px; height: 14px; border-radius: 2px; display: inline-block; }
     #time-slider { width: 100%; margin-top: 8px; }
     #play-pause { margin-top: 6px; width: 100%; padding: 5px; font-size: 14px; cursor: pointer; }
+    #citation {
+      position: absolute;
+      bottom: 5px;
+      left: 10px;
+      font-size: 11px;
+      background: rgba(255,255,255,0.7);
+      padding: 4px 8px;
+      border-radius: 4px;
+      z-index: 9999;
+    }
   </style>
 </head>
-
 <body>
 <div id="map"></div>
+
 <div id="controls">
-  <h4>Time: <span id="time-display">Loading...</span></h4>
+  <p style="font-size: 12px; margin: 0 0 8px 0;">
+    Interactive 3D web map of San Francisco used to visualize changes in building occupancy over time, using simulated occupancy data.
+  </p>
+  <h4 style="margin: 0 0 6px 0;">Time: <span id="time-display">Loading...</span></h4>
   <input type="range" id="time-slider" min="0" max="86400" step="600" value="0">
   <button id="play-pause">⏸ Pause</button>
+  <strong style="font-size: 13px;">Building Occupancy Count</strong>
   <div class="legend">
     <div><span class="legend-color" style="background:#969696;"></span> 0</div>
     <div><span class="legend-color" style="background:#00c800;"></span> 1</div>
@@ -48,6 +62,10 @@
     <div><span class="legend-color" style="background:#ff0000;"></span> 4</div>
     <div><span class="legend-color" style="background:#8b0000;"></span> 5+</div>
   </div>
+</div>
+
+<div id="citation">
+  GGS 692 Final: By Caitlin LaNeve and Tyler Treat, GMU Spring 2025
 </div>
 
 <script>
@@ -84,109 +102,105 @@ map.on('load', () => {
   }, labelLayerId);
 });
 
+let buildingData = [];
+let currentTime = 0;
+const maxTime = 86400;
+const frameDuration = 500;
+let playing = true;
+
 fetch('building_occupancy_sf_5k.json')
   .then(response => response.json())
   .then(data => {
-    let currentTime = 0;
-    const maxTime = 86400;
-    const frameDuration = 500;
-    let playing = true;
-    const timeDisplay = document.getElementById('time-display');
-    const timeSlider = document.getElementById('time-slider');
-    const playPauseButton = document.getElementById('play-pause');
-
-    function formatTime(seconds) {
-      const hrs = Math.floor(seconds / 3600);
-      const mins = Math.floor((seconds % 3600) / 60);
-      return `${String(hrs).padStart(2,'0')}:${String(mins).padStart(2,'0')}`;
-    }
-
-    function getColor(people) {
-      if (people === 0) return [150, 150, 150];
-      if (people === 1) return [0, 200, 0];
-      if (people === 2) return [255, 255, 0];
-      if (people === 3) return [255, 165, 0];
-      if (people === 4) return [255, 0, 0];
-      return [139, 0, 0];
-    }
-
-    function getOccupancySnapshot(time) {
-      return data.map(d => {
-        let lastPeopleCount = 0;
-        for (let i = 0; i < d.timestamps.length; i++) {
-          if (d.timestamps[i] <= time) lastPeopleCount = d.people[i];
-        }
-        return { coordinate: d.coordinate, people: lastPeopleCount };
-      });
-    }
-
-    function getOccupancyLayer(snapshot) {
-      return new deck.ScatterplotLayer({
-        id: 'occupancy-points',
-        data: snapshot,
-        getPosition: d => d.coordinate,
-        getFillColor: ({viewport, object}) => {
-          const baseColor = getColor(object.people);
-          const zoom = viewport.zoom;
-          const alpha = Math.min(200, Math.max(50, (zoom - 10) * 50));
-          return [...baseColor, alpha];
-        },
-        getRadius: d => 6,
-        radiusUnits: 'pixels',
-        radiusScale: 1,
-        radiusMinPixels: 2,
-        radiusMaxPixels: 10,
-        pickable: false
-      });
-    }
-
-    function getBuildingBoxesLayer(snapshot) {
-      return new deck.ColumnLayer({
-        id: 'occupancy-buildings',
-        data: snapshot,
-        diskResolution: 4,
-        radius: 10,
-        elevationScale: 10,
-        getPosition: d => d.coordinate,
-        getFillColor: d => [...getColor(d.people), 120],
-        getElevation: d => d.people * 10,
-        pickable: false
-      });
-    }
-
-    function updateMap() {
-      const snapshot = getOccupancySnapshot(currentTime);
-      const occupancyLayer = getOccupancyLayer(snapshot);
-      const buildingsLayer = getBuildingBoxesLayer(snapshot);
-      deckOverlay.setProps({ layers: [occupancyLayer, buildingsLayer] });
-
-      timeDisplay.textContent = formatTime(currentTime);
-      timeSlider.value = currentTime;
-    }
-
-    function animate() {
-      if (playing) {
-        currentTime += 600;
-        if (currentTime > maxTime) currentTime = 0;
-        updateMap();
-      }
-      setTimeout(animate, frameDuration);
-    }
-
-    timeSlider.addEventListener('input', e => {
-      currentTime = parseInt(e.target.value);
-      updateMap();
-    });
-
-    playPauseButton.addEventListener('click', () => {
-      playing = !playing;
-      playPauseButton.textContent = playing ? '⏸ Pause' : '▶ Play';
-    });
-
+    buildingData = data;
     updateMap();
     animate();
-  })
-  .catch(error => console.error('Error loading data:', error));
+  });
+
+const timeDisplay = document.getElementById('time-display');
+const timeSlider = document.getElementById('time-slider');
+const playPauseButton = document.getElementById('play-pause');
+
+function formatTime(seconds) {
+  const hrs = Math.floor(seconds / 3600);
+  const mins = Math.floor((seconds % 3600) / 60);
+  return `${String(hrs).padStart(2,'0')}:${String(mins).padStart(2,'0')}`;
+}
+
+function getColor(people) {
+  if (people === 0) return [150, 150, 150];
+  if (people === 1) return [0, 200, 0];
+  if (people === 2) return [255, 255, 0];
+  if (people === 3) return [255, 165, 0];
+  if (people === 4) return [255, 0, 0];
+  return [139, 0, 0];
+}
+
+function getOccupancySnapshot(time) {
+  return buildingData.map(d => {
+    let lastPeopleCount = 0;
+    for (let i = 0; i < d.timestamps.length; i++) {
+      if (d.timestamps[i] <= time) lastPeopleCount = d.people[i];
+    }
+    return { coordinate: d.coordinate, people: lastPeopleCount };
+  });
+}
+
+function getOccupancyLayer(snapshot) {
+  return new deck.ScatterplotLayer({
+    id: 'occupancy-points',
+    data: snapshot,
+    getPosition: d => d.coordinate,
+    getFillColor: d => [...getColor(d.people), 200],
+    getRadius: d => 6,
+    radiusUnits: 'pixels',
+    radiusScale: 1,
+    radiusMinPixels: 2,
+    radiusMaxPixels: 10,
+    pickable: false
+  });
+}
+
+function getBuildingBoxesLayer(snapshot) {
+  return new deck.ColumnLayer({
+    id: 'occupancy-buildings',
+    data: snapshot,
+    diskResolution: 4,
+    radius: 10,
+    elevationScale: 10,
+    getPosition: d => d.coordinate,
+    getFillColor: d => [...getColor(d.people), 120],
+    getElevation: d => d.people * 10,
+    pickable: false
+  });
+}
+
+function updateMap() {
+  const snapshot = getOccupancySnapshot(currentTime);
+  const occupancyLayer = getOccupancyLayer(snapshot);
+  const buildingsLayer = getBuildingBoxesLayer(snapshot);
+  deckOverlay.setProps({ layers: [occupancyLayer, buildingsLayer] });
+  timeDisplay.textContent = formatTime(currentTime);
+  timeSlider.value = currentTime;
+}
+
+function animate() {
+  if (playing) {
+    currentTime += 600;
+    if (currentTime > maxTime) currentTime = 0;
+    updateMap();
+  }
+  setTimeout(animate, frameDuration);
+}
+
+timeSlider.addEventListener('input', e => {
+  currentTime = parseInt(e.target.value);
+  updateMap();
+});
+
+playPauseButton.addEventListener('click', () => {
+  playing = !playing;
+  playPauseButton.textContent = playing ? '⏸ Pause' : '▶ Play';
+});
 </script>
 </body>
 </html>
